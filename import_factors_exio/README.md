@@ -1,3 +1,8 @@
+### OUTDATED BRANCH
+
+This branch does not contain download_imports_data.py.
+Use the master branch instead.
+
 # Generating Import Factors from Exiobase
 
 "generate_import_factors.py" will pulls the Exiobase data and merges with BEA.

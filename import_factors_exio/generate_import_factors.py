@@ -2,6 +2,11 @@
 Generates import factors from EXIOBASE
 """
 
+### OUTDATED BRANCH
+
+# This branch does not contain download_imports_data.py.
+# Use the master branch instead.
+
 import pandas as pd
 import pickle as pkl
 import numpy as np
