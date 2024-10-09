@@ -1,7 +1,6 @@
 # Generating Import Factors from Exiobase
 
-"generate_import_factors.py" will pulls the Exiobase data and merges with BEA.
-You do not need to run “Exiobase_downloads.py”.
+"generate_import_factors.py" pulls the Exiobase data (using download_exiobase.py) and then merges with the US BEA data (using download_imports_data.py).
 
 ## BEA API Access
 
