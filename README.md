@@ -5,7 +5,7 @@ but may also be useful for other purposes. It is built using methods from input-
 
 Within this repository are scripts to support:
 1. JSON-LD versions of a USEEIO model in [u2o.py](olca/u2o.py)
-2. The generation of Import Emission Factors from EXBIOASE [here](import_factors_exio/README.md)
+2. The generation of Import Emission Factors from an MRIO model [here](import_emission_factors/README.md)
 
 ## Current platform
 [useeior](https://github.com/USEPA/useeior). An R package that reads in economic data, houses model configuration files, generates model components, result matrices and price adjustment matrices, and performs model calculations. useeior is used to generate USEEIO models >= v2.0
@@ -27,7 +27,7 @@ Both flowsa and the LCIAformatter draw on the [fedelemflowlist](https://github.c
 [useeiopy](https://github.com/USEPA/useeiopy) and the [IO Model Builder](https://github.com/usepa/IO-model-builder) are Python packages for assembling model components and writing the model out for serving on the USEEIO API or for use in openLCA. These packages were used for created USEEIO v1 models and are not supported for current USEEIO models. The former framework used to generate USEEIO versions <= 1.2 is still accessible under [Releases](https://github.com/USEPA/USEEIO/releases).
 
 ## Model Versioning
-See the [Versioning Scheme](VersioningScheme.md) for an explanation of USEEIO model version numbers and names.
+See the [Versioning Scheme](versioning/VersioningScheme.md) for an explanation of USEEIO model version numbers and names.
 
 ## Citation
 If you use USEEIO models for your research, please cite the original paper 
