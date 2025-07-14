@@ -1,5 +1,8 @@
 # Generating Import Factors from Exiobase
 
+This intro was created for the prior import_factors_exio folder.  
+Please revise the following to match the new import_emissions_factors folder.
+
 "generate_import_factors.py" pulls the Exiobase data (using download_exiobase.py) and then merges with the US BEA data (using download_imports_data.py).
 
 ## BEA API Access
